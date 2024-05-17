@@ -1,9 +1,12 @@
 <?php
 
-$num=1;
+$num=407;
 $total=0;
+
 $x=$num;
+
 while($x!=0){
+    
     $a=$x%10;
     $total=$total+$a*$a*$a;
 
